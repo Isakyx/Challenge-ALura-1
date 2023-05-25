@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+input {
+	margin: 10px 10px auto;
+width: 500px;
+height: 250px;
+font-size: 15px;
+padding: 50;
+text-align: center;}
+.cuadros li{
+	display: inline-block;
+	margin: 50px 0 0 100px;
+	text-align: center;
+	border-style: double;
+	border: 2px solid #000000;
+    border-radius: 10px;
+}
+#botonEncriptado {
+	box-shadow:inset 0px 5px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:42px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+#botonEncriptado:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+#botonEncriptado:active {
+	position:relative;
+	top:1px;
+}
+#botonDesencriptado {
+	box-shadow:inset 0px 5px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:42px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+#botonDesencriptado:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+#botonDesencriptado:active {
+	position:relative;
+	top:1px;
+}
+#botonCopiar {
+	box-shadow:inset 0px 5px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:42px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+
+}
+#botonCopiar:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+#botonCopiar:active {
+	position:relative;
+	top:1px;
+}
+.img{
+
+	width: 40px;
+	height: 60px;
+	margin: 20px 20px auto;
+}
+.letras-titulo{
+	font-family: 'Anton', sans-serif;
+	font-style: bold;
+	font-size: 50px;
+	font-weight: 50px;
+	
+}
+.botones li{
+	display: inline-block;
+	margin: 50px 50px 0 200px;
+	text-align: center;
+}
+.firma{
+
+	font-family: 'Black Ops One', cursive;
+     margin: 100px;
+	font-weight: 100px;
+	text-align: right;
+
+}
+
+
+
